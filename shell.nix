@@ -4,8 +4,8 @@
 
 pkgs.mkShell {
   packages = with pkgs; [
-    clang
     clang-tools
+    clang
     bear
     nil
   ];
